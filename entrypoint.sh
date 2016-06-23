@@ -75,9 +75,9 @@ initialize_license() {
   fi
 }
 
-initialize_data_dir
+#initialize_data_dir
 initialize_log_dir
-rewire_wowza
+#rewire_wowza
 initialize_license
 
 if [[ -z ${1} ]]; then
